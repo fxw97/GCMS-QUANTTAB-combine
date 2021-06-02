@@ -1,0 +1,17 @@
+C:\Precess Data\2019出口数据\BK20210423-3.D\audit.txt 
+Created Tue Jun 01 22:04:32 2021
+
+
+ Modified : Tue Jun 01 22:04:32 2021
+ Event    : Quantitation 
+ Message  : Calculation using initial calibration
+ QuantFile: 20210529.RES
+ Severity : 0
+
+
+ Modified : Tue Jun 01 22:04:32 2021
+ Event    : Report Generation 
+ Message  : Generated Report using option: s
+ QuantFile: 20210529.RES
+ Severity : 0
+

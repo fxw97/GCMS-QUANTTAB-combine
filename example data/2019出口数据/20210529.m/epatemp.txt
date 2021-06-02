@@ -1,0 +1,50 @@
+                            Quantitation Report    (Not Reviewed)
+
+  Data Path : D:\All Data\information for quantity\GC-MS method (2011.09.04)\FAME.M\
+  Data File :                                                     
+  Acq On    : 23 May 2011  16:50
+  Operator  : HQF
+  Sample    : 1105
+  Misc      :  
+  ALS Vial  : 22   Sample Multiplier: 1
+
+  Quant Time: Dec 20 22:00:14 2011
+  Quant Method : D:\All Data\10 Asian game\2010 WQS\¼×õ¥»¯\method\FAME-2010WQS.M
+  Quant Title  : FAME
+  QLast Update : Tue Sep 28 22:13:47 2010
+  Response via : Initial Calibration
+
+          Compound                   R.T. QIon  Response  Conc Units Dev(Min)
+   --------------------------------------------------------------------------
+
+   Target Compounds                                                   Qvalue
+     1) Tetradecanoic acid         24.274   74   171296   No Calib    
+     2) Pentadecanoic acid         26.380   74    40627   No Calib   #
+     3) Hexadecanoic acid           0.000             0      N.D.       
+     4) Heptadecanoic acid         30.309   74    58683   No Calib    
+     5) Octadecanoic acid           0.000             0      N.D.       
+     6) Nonadecanoic acid          33.909   74    21303   No Calib    
+     7) Eicosanoic acid             0.000             0      N.D.       
+     8) Heneicosanoic acid         37.228   74    63798   No Calib    
+     9) Docosanoic acid             0.000             0      N.D.       
+    10) Tricosanoic acid           40.300   74   190490   No Calib    
+    11) Tetracosanoic acid          0.000             0      N.D.       
+    12) Pentacosanoic acid          0.000             0      N.D.       
+    13) Hexacosanoic acid           0.000             0      N.D.       
+    14) Heptacosanoic acid          0.000             0      N.D.       
+    15) Octacosanoic acid          47.107   74   724174   No Calib    
+    16) Nonacosanoic acid          48.479   74    91000   No Calib    
+    17) Triacontanoic acid         50.087   74   464217   No Calib    
+    18) Henriacontanoic acid       51.993   74   239681   No Calib   #
+    19) Dotriacontanoic acid       54.297   74   996104   No Calib    
+    20) 9-hexadecenoic acid         0.000             0      N.D.       
+    21) trans-9-Octadecenoic acid   0.000             0      N.D.       
+    22) cis-9-Octadecenoic acid    32.151   69   593668   No Calib   #
+    23) 9,12-Octadecanedienoic...   0.000             0      N.D.       
+    24) Hexadecanoic acid-D31      27.928   77  2037751   No Calib   #
+    25) Lauric acid-D23            19.353   77  3840532   No Calib   #
+   --------------------------------------------------------------------------
+
+   (#) = qualifier out of range (m) = manual integration (+) = signals summed
+
+FAME-2010WQS.M Tue Dec 20 22:00:15 2011   

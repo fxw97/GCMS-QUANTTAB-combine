@@ -1,0 +1,33 @@
+
+           Data File Information
+
+     Data File     : C:\Precess Data\2019出口数据\SDCK20191017-12.D\data.ms
+     Operator:     :   
+     Acquired On   :  23 May 2021   6:23    
+     Instrument    :  5975msd
+     Method File   :  SIM-PAHS.M
+     Sample Name   :  SDCK20191017-12
+     Misc Info     :   
+     Vial Number   :  23
+     Sample Mult.  :  1.00
+     Sample Amount :  0.00
+     Exp. Barcode  :   
+     Act.  Barcode :   
+
+           Secondary Data File Information
+
+     Data File    :  C:\Precess Data\2019出口数据\SDCK20191017-12.D\datasim.ms
+     Operator:    :   
+     Acquired On  :  23 May 2021   6:23    
+     Instrument   :  5975msd
+     Method File  :  SIM-PAHS.M
+     Sample Name  :  SDCK20191017-12
+     Misc Info    :   
+     Vial Number  :  23
+
+
+
+     Files in Data Directory
+
+
+     * = File time stamp is before latest quant update

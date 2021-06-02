@@ -1,0 +1,81 @@
+                                        定量报告    (Not Reviewed)
+
+  数据路径  : C:\Precess Data\2019出口数据\
+  数据文件  : SDCK20191018-8.D                                    
+  采集      : 23 May 2021  16:11
+  操作者    :  
+  样品      : SDCK20191018-8
+  其他      :  
+  ALS 样品瓶: 31   样品乘积因子：1
+
+  定量时间  : Jun 01 19:28:51 2021
+  定量方法 : C:\Precess Data\2019出口数据\20210529.m
+  定量方法标题: FAME
+  上一次定量更新: Tue Sep 28 22:13:47 2010
+  响应方式  : 初始校正
+
+          化合物                   R.T. 目标离子   响应     浓度  偏差(分钟)
+   --------------------------------------------------------------------------
+
+   目标化合物                                                   限定峰值
+     1) Lauric acid-D23            19.350   77 12206709   未校正      
+     2) Hexadecanoic acid-D31      27.915   77 17939618   未校正     #
+     3) Hentricontanioc acid-D31   38.219   77 14793666   未校正     #
+     4) Phthalic acid 3,4,56-D4    18.060  167 14752865   未校正     #
+     5) Nonanoic acid              12.083   74  1750239   未校正     #
+     6) Decanoic acid              14.755   74   543960   未校正     #
+     7) Undecanoic acid            17.797   74   187398   未校正     #
+     8) Dodecanoic acid            19.745   74  2929846   未校正     #
+     9) Tridecanoic acid           22.063   74   939908   未校正     #
+    10) Tetradecanoic acid         24.268   74  6522432   未校正     #
+    11) Pentadecanoic acid         26.371   74  2113651   未校正      
+    12) Hexadecanoic acid          28.382   74 60255117   未校正      
+    13) Heptadecanoic acid         30.296   74   670967   未校正      
+    14) Octadecanoic acid          32.128   74 16384198   未校正      
+    15) Nonadecanoic acid          33.889   74   130310   未校正     #
+    16) Eicosanoic acid            35.577   74   576851   未校正      
+    17) Heneicosanoic acid         37.199   74   106686   未校正      
+    18) Docosanoic acid            38.761   74   542412   未校正      
+    19) Tricosanoic acid           40.264   74   219986   未校正      
+    20) Tetracosanoic acid         41.718   74   224364   未校正      
+    21) Pentacosanoic acid         43.111   74   109128   未校正     #
+    22) Hexacosanoic acid          44.461   74   168844   未校正      
+    23) Heptacosanoic acid         45.771   74    34919   未校正     #
+    24) Octacosanoic acid          47.037   74   172386   未校正      
+    25) Nonacosanoic acid          48.378   74    35853   未校正     #
+    26) Triacontanoic acid         49.969   74   112641   未校正      
+    27) Henriacontanoic acid       51.823   74    20500   未校正     #
+    28) Dotriacontanoic acid       54.122   74    56125   未校正      
+    29) 9-Hexadecenoic acid        28.382   69  7308267   未校正     #
+    30) trans-9-Octadecenoic acid  31.779   69   812886   未校正      
+    31) cis-9-Octadecenoic acid    32.129   69  2171537   未校正      
+    32) 9,12-Octadecanedienoic...  31.659   67  2064523   未校正      
+    33) Hexadecanamide             33.037   59   372326   未校正     #
+    34) 9-Octdecenamide            36.097   59   392086   未校正     #
+    35) Octadecanamide             36.518   59   203620   未校正     #
+    36) Butanedioic Acid            6.931  115  6633501   未校正     #
+    37) Pentanedioic Acid           9.731   59   888437   未校正     #
+    38) Hexanedioic Acid           12.709   59   534912   未校正     #
+    39) Heptanedioic Acid          15.531  115  1434458   未校正     #
+    40) Octanedioic Acid           17.902  129    74477   未校正     #
+    41) Nonanedioic Acid           20.327  152   344783   未校正     #
+    42) Decanedioic acid           22.641  125    35712   未校正     #
+    43) Benzoic acid                8.616  105   841889   未校正     #
+    44) m-Toluic acid               0.000             0      N.D.       
+    45) p-Toluic acid              11.826  119    43680   未校正     #
+    46) 1,2-Phthalic acid          18.097  163 15589524   未校正     #
+    47) 1,4-Phthalic acid          19.196  163  2309485   未校正     #
+    48) 1,3-Phthalic acid          19.516  163   639436   未校正     #
+    49) 4-Methoxybenzoic acid      16.115  135   373940   未校正     #
+    50) 3,4-Dimethoxy benzoic ...  21.392  165   122468   未校正     #
+    51) 4-methyl-1,2-phthalic ...  20.888  177  2805797   未校正     #
+    52) 1,2,4-Benzenetricarbox...  26.745  221  4628585   未校正     #
+    53) 1,3,5-Benzenetricarbox...  27.994  221   253223   未校正     #
+    54) 1,2,4,5-Benzenetetraca...  32.606  279   324811   未校正     #
+    55) 7-Oxodehydroabietic acid   39.588  253    47119   未校正      
+    56) Benz(de)anthracen-7-one    38.253  230    25275   未校正     #
+   --------------------------------------------------------------------------
+
+   (#) = 限定峰超出范围 (m) = 手动积分 (+) = 已求和的信号
+
+20210529.m Tue Jun 01 19:28:52 2021   

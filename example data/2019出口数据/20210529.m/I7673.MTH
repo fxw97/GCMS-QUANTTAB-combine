@@ -1,0 +1,35 @@
+DefaultInjectors
+SetSyringeSize FRONT    10.00
+SetNanoliterAdapter FRONT 0
+SetInjectionVolume FRONT     1.00
+SetSamplePumps FRONT 0
+SetSampleWashes FRONT 0
+SetViscosityDelay FRONT 0
+SetSolventPreWashes FRONT A 0
+SetSolventPreWashes FRONT B 0
+SetSolventPostWashes FRONT A 0
+SetSolventPostWashes FRONT B 0
+SetSlowPlungerEnable FRONT 0
+SetPlungerSpeed FRONT     100.00
+SetPreInjectionDwell FRONT     0.00
+SetPostInjectionDwell FRONT     0.00
+SetSampleSkimEnable FRONT 0
+SetSkimDepth FRONT    0.00
+SetOnColumn FRONT 0
+SetSyringeSize BACK    10.00
+SetNanoliterAdapter BACK 0
+SetInjectionVolume BACK     1.00
+SetSamplePumps BACK 0
+SetSampleWashes BACK 0
+SetViscosityDelay BACK 0
+SetSolventPreWashes BACK A 0
+SetSolventPreWashes BACK B 0
+SetSolventPostWashes BACK A 0
+SetSolventPostWashes BACK B 0
+SetSlowPlungerEnable BACK 0
+SetPlungerSpeed BACK     100.00
+SetPreInjectionDwell BACK     0.00
+SetPostInjectionDwell BACK     0.00
+SetSampleSkimEnable BACK 0
+SetSkimDepth BACK    0.00
+SetOnColumn BACK 0

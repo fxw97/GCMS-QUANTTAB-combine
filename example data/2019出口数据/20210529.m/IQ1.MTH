@@ -1,0 +1,110 @@
+C1CF 3000.0,250.00,25.0,0,2,0,1,0
+C2CF 0.0,0.00,0.0,5,4,0,0,0
+IBCF 2,0.10,0.10
+IFCF 2,0.10,0.10
+DBCF 7,7
+DFCF 7,7
+A2TP 2
+OVCF 325
+V1CF 0,0.000,0,0.00,0
+V2CF 0,0.000,0,0.00,0
+V3CF 0,0.000,0,0.00,0
+V4CF 0,0.000,0,0.00,0
+V5CF 0,0.000,0,0.00,0
+V6CF 0,0.000,0,0.00,0
+V7CF 0,0.000,0,0.00,0
+V8CF 0,0.000,0,0.00,0
+A1CW 4,0
+A2CW 2,3
+A3CW 0,0,2,0.10
+A4CW 0,0,2,0.10
+A5CW 0,0,2,0.10
+C1CW 3000.0,250.00,25.0,0,2,0,1,0
+C2CW 0.0,0.00,0.0,5,4,0,0,0
+DBCW 15,0,0,0,0,0,7,7
+DFCW 15,0,0,0,0,0,7,7
+GCCW 0,1
+IBCW 8,0,0,0,2,0.10,0.10
+IFCW 2,3,1,6894880,2,0.10,0.10
+OVCW 1,3,0,325
+V1CW 0,0.000,0,0.00,0
+V2CW 0,0.000,0,0.00,0
+V3CW 0,0.000,0,0.00,0
+V4CW 0,0.000,0,0.00,0
+V5CW 0,0.000,0,0.00,0
+V6CW 0,0.000,0,0.00,0
+V7CW 0,0.000,0,0.00,0
+V8CW 0,0.000,0,0.00,0
+CCCE 0
+GCPO 0.00,0
+OVSP 0.50
+OVTR 70,2.00,20.00,230.00,0.00,0.00,240.00,0.00,30.00,270.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+OVTZ 1
+IFSP 1,1,606880,50000.0,2.00,0,0.00,20000.0,2.00,1
+IFTR 0,250,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+IFTZ 1
+DBNZ 0,0,0
+DFNZ 0,0,0
+A2TR 280,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+A2TZ 1
+C1NR 1,1,1,1,1000.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+IBNZ 0
+IFNZ 1
+GCRD 0
+CCC1 2
+CCC2 2
+CCIW HP,6890,GC,A.01.06,,131419,080595
+DBMF 0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+DFMF 0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+GCPU 0
+IBRC 0.0,0.00,0.0,0.00,0.0,0.00,0.0,0.00
+IFRC 2617.0,-3.00,8004.0,-4.00,3035.0,-4.00,2617.0,-3.00
+S1CA 0,0,0
+S1CS A4
+S1ZA 0,0
+S2CA 0,0,0
+S2CS A12
+S2ZA 0,0
+CCMD 
+CCMC
+CCMI
+S1CD 0.10,CON,CMP
+S2CD 0.10,CON,CMP
+idx_lbLockKeyboardWhileLoaded=0
+idx_lSamplerPresence=1
+idx_lbIQOriginated=1
+idx_front_inlet__PP_actual_flow=606880.0
+idx_front_inlet__PP_actual_pressure=50000
+idx_back_inlet__PP_actual_flow=0.0
+idx_back_inlet__PP_actual_pressure=0
+idx_column1_szManufacturer=HP
+idx_column1_szType=19091J-433
+idx_column1_szDescription=HP-5  5% Phenyl Methyl Siloxane
+idx_column1_TMax=325
+idx_column2_szManufacturer=
+idx_column2_szType=
+idx_column2_szDescription=
+idx_column2_TMax=0
+idx_aux1_szLabel=
+idx_aux2_szLabel=
+idx_aux3_szLabel=
+idx_aux4_szLabel=
+idx_aux5_szLabel=
+idx_signal1_lbSave=0
+idx_signal1_lSave=1
+idx_signal1_tStartSave=0.00
+idx_signal1_tStopSave=0.00
+idx_signal1_y_scale_factor=0.00
+idx_signal2_lbSave=0
+idx_signal2_lSave=1
+idx_signal2_tStartSave=0.00
+idx_signal2_tStopSave=0.00
+idx_signal2_y_scale_factor=0.00
+idx_valve1_szLabel=
+idx_valve2_szLabel=
+idx_valve3_szLabel=
+idx_valve4_szLabel=
+idx_valve5_szLabel=
+idx_valve6_szLabel=
+idx_valve7_szLabel=
+idx_valve8_szLabel=

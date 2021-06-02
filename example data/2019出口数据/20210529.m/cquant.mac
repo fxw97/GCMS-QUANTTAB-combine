@@ -1,0 +1,163 @@
+!   Version C.03.00 Copyright (c) Hewlett-Packard 1996
+! File : cquant.mac
+! Macros : 
+!    repabort           pequations
+!    checkendpage
+!    processreport      printtopheader
+!    printtrefheader    printcolheader
+!    cleanup            quantanalysis
+!    dofooter
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!      MODIFY ACCORDINGLY TO CUSTOMIZE YOUR FINAL REPORT OUTPUT          !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Name EPA_CLEANUP
+     parameter not_broke def 0
+     local emsg$
+     if check("variable","_errmsg$") = 1
+       emsg$=_errmsg$
+     endif
+     
+     on error 
+     echo off
+     rem msg1$,result_num,mod$,compoundrow,tip,timediv,indent,rownum,pagenum,rsltfile$,mi$,numhits$
+     rem epa_summary,epaheader,epacheckend,getistd,getsmc,getfound,trgtgraphics,p_detail,p_sumsec,page$
+     rem print_found,Print_not_found,nfgraphics,epa_detail,dofooter,do_detail,printlabel,label,hit_num
+     rem epa_init,getresult_x,refspec_error,footer,tofile,genreport,customparms,cal_pk_tp$,scan_tmp
+     rem calmode
+     if not_broke = 1
+       remove epa_cleanup
+     else
+       close #2
+       endprint
+       endjob
+       macro _macropath$+"cleanvar.mac",g
+       print "An error occurred in quantitation reporting : "+emsg$
+     endif
+
+   
+name repabort
+    on error 
+    local saveerror, saveerror$
+    saveerror$ = _errmsg$
+    saveerror = _error
+    epa_cleanup 1
+    !assign correct error message
+    varlock off
+    _error = saveerror
+    _errmsg$ = saveerror$
+    varlock on
+    print _errmsg$
+
+    ! Fall out of this macro
+
+
+name quantanalysis
+    local xlxport, message$,genreport
+
+    rsltfile$ = _datapath$ + _datafile$ + _quantresfile$
+    genreport = 0
+    if (quant_screen = 1) or (quant_printer = 1) or (len(quant_file$) > 0) 
+        genreport = 1
+    endif
+    on error repabort
+    
+    if genreport > 0 
+      filesize rsltfile$
+      if size = -1
+        generate error 1, "You must calculate a report before generating it!"
+      endif
+      ! macro _macropath$ + "pqinit.mac",g
+      footer = 1              
+      tofile = 0
+      if (quant_screen = 1) or (len(quant_file$) > 0 and eqstr(quant_file$,"CSV") = 0)  
+	 tofile = 1
+      endif
+      if len(quant_file$) > 0 and eqstr(quant_file$,"CSV") = 0
+	 if instr(quant_file$,".") = 0 !no type
+	    quant_file$ = quant_file$+".txt"
+	 endif
+	 if eqstr(quant_file$[1:1],"\") !strip it
+	    quant_file$ = quant_file$[2:len(quant_file$)]
+	 endif
+	 a=instr(quant_file$,".")
+	 if a > 0 
+            if eqstr(quant_file$[a:len(quant_file$)],".xls") = 1 and (quant_detailed =1)
+               xlxport = 1
+            else 
+               xlxport = 0
+            endif
+	 endif
+      else
+         xlxport = 0
+      endif
+!KRW added this 1/19/96 to allow `x' in qt command
+      if xlxport = 1
+            print "Creating EXCEL file for Custom Report..."
+            exportrslt rsltfile$, _datapath$ + _datafile$ + "\" + quant_file$
+      endif
+
+      if eqstr(quant_file$,"CSV") = 1
+         macro _macropath$ + "csv.mac",g
+      else
+         if quant_detailed <> 1 and quant_detailed <> 4 !summary or detailed; do normal EQ stuff 
+            local rptmacro,getrptmacro
+	    if edarfgmode = 1 and _rfgfile = 1
+	       getrptmacro = "eparfg.mac"
+	    else
+	       getrptmacro = "epa.mac"
+	    endif
+            GetMthOrMacro getrptmacro,rptmacro
+!              macro _macropath$ + "epa.mac",g
+            macro rptmacro,g
+         endif
+	 if len(quant_file$) > 0 and (quant_detailed+quant_screen+quant_printer)=0
+	    make_epatemp quant_file$
+	 endif
+	 if quant_detailed = 1 !detailed, text only
+	    if xlxport = 0
+	       if quant_screen = 1 or len(quant_file$) > 0
+	          tofile = 1
+	       endif
+	       rsltfile$ = _datapath$+_datafile$+_quantresfile$
+	       macro _macropath$+"qr.mac",go
+	    endif
+	 endif  
+         message$="Quantitative Report Generated !"
+      endif
+      print message$
+    else
+      Print "No output destination chosen... no report generated !"
+    endif
+    macro _macropath$+"cleanvar.mac",g       
+    if quantandrr = 1
+      macro _macropath$+"rr.mac"
+      if quantandtic = 1 and ms_mode = 1
+        if quant_printer = 1
+          rr ,2
+        else
+          rr ,1
+        endif
+      else
+        rr
+      endif
+    else
+      if quantandtic = 1 and ms_mode = 1
+	if quant_screen + quant_printer = 0
+ 	   report_tic 1
+	else
+	   if quant_detailed = 2
+              report_tic 1,quant_printer,"F"
+           else
+	      if quant_detailed = 0
+                 report_tic 1,quant_printer,"S"
+		 if quant_screen = 1 and quant_printer = 1
+		    report_tic ,,"S"
+		 endif
+	      endif
+	   endif
+        endif
+      endif
+    endif
+remove repabort,epa_cleanup
+remove quantanalysis

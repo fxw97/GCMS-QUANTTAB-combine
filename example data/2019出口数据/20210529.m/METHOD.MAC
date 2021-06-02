@@ -1,0 +1,5 @@
+NAME METHINFO
+  EditMethPanel 1,1,1
+  MethInfoPanel 0,0,1,1,0,"",""
+  METHCOMMENT0$ = "This is the default method"
+  REMOVE METHINFO

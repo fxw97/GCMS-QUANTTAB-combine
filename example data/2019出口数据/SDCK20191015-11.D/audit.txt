@@ -1,0 +1,472 @@
+C:\Precess Data\2019出口数据\SDCK20191015-11.D\audit.txt 
+Created Mon May 31 20:31:00 2021
+
+
+ Modified : Mon May 31 20:31:00 2021
+ Event    : Quantitation 
+ Message  : Calculation using initial calibration
+ QuantFile: 20210529.RES
+ Severity : 0
+
+
+ Modified : Mon May 31 20:31:01 2021
+ Event    : Report Generation 
+ Message  : Generated Report using option: s
+ QuantFile: 20210529.RES
+ Severity : 0
+
+
+ Modified : Mon May 31 20:31:08 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Lauric acid-D23 from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 20:31:15 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Hexadecanoic acid-D31 from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:19:42 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Phthalic acid 3,4,56-D4 from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:19:53 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Nonanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:20:00 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Decanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:20:07 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Undecanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:20:16 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Dodecanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:20:23 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Tridecanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:20:30 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Tetradecanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:20:36 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Pentadecanoic acid  from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:20:43 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Hexadecanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:20:49 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Heptadecanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:20:56 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Octadecanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:21:03 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Nonadecanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:21:10 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Eicosanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:21:20 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Heneicosanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:21:26 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Heneicosanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:21:33 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Docosanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:21:47 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Tricosanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:21:53 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Tetracosanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:22:02 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Pentacosanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:22:10 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Hexacosanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:22:18 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Heptacosanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:22:25 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Octacosanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:22:34 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Nonacosanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:22:42 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Triacontanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:22:49 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Henriacontanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:22:57 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Dotriacontanoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:23:12 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 9-Hexadecenoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:23:19 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for trans-9-Octadecenoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:23:26 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for cis-9-Octadecenoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:23:43 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 9,12-Octadecanedienoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:23:49 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Hexadecanamide from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:23:56 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 9-Octdecenamide from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:24:05 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Octadecanamide from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:24:12 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Butanedioic Acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:24:22 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Pentanedioic Acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:24:29 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Hexanedioic Acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:24:35 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Heptanedioic Acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:24:42 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Octanedioic Acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:24:49 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Nonanedioic Acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:24:56 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Decanedioic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:25:02 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Decanedioic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:25:05 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Decanedioic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:25:13 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Benzoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:26:44 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for m-Toluic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:26:52 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for p-Toluic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:26:58 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1,2-Phthalic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:27:02 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1,4-Phthalic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:27:08 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1,4-Phthalic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:27:15 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1,3-Phthalic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:27:18 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1,3-Phthalic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:27:25 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1,3-Phthalic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:27:31 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 4-Methoxybenzoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:27:37 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 4-Methoxybenzoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:27:50 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 4-Methoxybenzoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:28:00 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 3,4-Dimethoxy benzoic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:28:07 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 4-methyl-1,2-phthalic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:28:13 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1,2,4-Benzenetricarboxylic  from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:28:19 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1,2,4-Benzenetricarboxylic  from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:28:23 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1,2,4-Benzenetricarboxylic  from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:28:30 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1,3,5-Benzenetricarboxylic from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:28:37 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 1,2,4,5-Benzenetetracarboxy from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:28:45 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for 7-Oxodehydroabietic acid from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+
+
+ Modified : Mon May 31 21:28:54 2021
+ Event    : Manual Integration
+ Message  : Changed peak amount for Benz(de)anthracen-7-one from 0 to 0
+ QuantFile: 20210529.RES
+ Severity : 1
+

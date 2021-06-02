@@ -1,0 +1,28 @@
+name print_ratios
+!This must be specified for each unique method.
+!Change the following lines for your method criteria
+!calcratio [target mass],[comparison mass],[lower limit(%)],[upper limit(%)]
+
+      calcratio 51, 198, 30, 60
+      calcratio 68,  69,  0,  2
+      calcratio 69, 198,  0,100
+      calcratio 70,  69,  0,  2
+      calcratio 127,198, 40, 60
+      calcratio 197,198,  0,  1
+      calcratio 198,198,100,100
+      calcratio 199,198,  5,  9
+      calcratio 275,198, 10, 30
+      calcratio 365,198,  1,100
+      calcratio 441,443, 0.01,100
+      calcratio 442,198, 40,100
+      calcratio 443,442, 17, 23
+    return
+
+name init_parms
+  lastprint$=" "
+  method$="DFTPP"     ! method name. (Appears at top of report)
+  base_mass=198       ! basepeak for comparison.
+  other_base=-1       ! set to value for alternate basepeak,-1 for none.
+  n_comparisons=13    ! number of relative abundance comparisons to be made in "print_ratios".
+  print_tab = 0       ! include tabulation when sent to printer
+  return

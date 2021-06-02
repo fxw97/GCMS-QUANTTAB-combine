@@ -1,0 +1,22 @@
+
+           Data File Information
+
+     Data File     : C:\Precess Data\2019出口数据\BK20210423-3.D\data.ms
+     Operator:     :   
+     Acquired On   :  19 May 2021  00:34    
+     Instrument    :  5975msd
+     Method File   :  POLARSCAN.M
+     Sample Name   :  BK20210519-1
+     Misc Info     :   
+     Vial Number   :  1
+     Sample Mult.  :  1.00
+     Sample Amount :  0.00
+     Exp. Barcode  :   
+     Act.  Barcode :   
+
+
+
+     Files in Data Directory
+
+
+     * = File time stamp is before latest quant update

@@ -1,0 +1,9 @@
+name dummy
+useccrfparm = 0
+nouseccrfparm = 1
+quantandtic = 0
+quantandrr = 0
+mi_on = 0
+autoalign = 0
+quantalign = 0
+remove dummy

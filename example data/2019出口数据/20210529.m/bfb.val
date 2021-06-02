@@ -1,0 +1,25 @@
+name print_ratios
+!This must be specified for each unique method.
+!Change the following lines for your method criteria
+!calcratio [target mass],[comparison mass],[lower limit(%)],[upper limit(%)]
+
+     calcratio  50, 95, 15, 40
+     calcratio  75, 95, 30, 60
+     calcratio  95, 95,100,100
+     calcratio  96, 95,  5,  9
+     calcratio 173,174,  0,  2
+     calcratio 174, 95, 50,100
+     calcratio 175,174,  5,  9
+     calcratio 176,174, 95,101
+     calcratio 177,176,  5,  9
+    return
+
+name init_parms
+  lastprint$=" "
+  method$="BFB"   ! method name. (Appears at top of report)
+  base_mass=95       ! basepeak for comparison.
+  other_base=-1      ! set to value for alternate basepeak,-1 for none.
+  n_comparisons=9    ! number of relative abundance comparisons to be made in "print_ratios".
+  print_tab = 0      ! include tabulation when sent to printer
+  return
+
