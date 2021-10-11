@@ -15,7 +15,7 @@ for file in files:
         reader = csv.reader(f)
         rows = [row for row in reader]
         data_temp = pd.DataFrame(rows[19:])
-        columns_temp = rows[12][0]
+        columns_temp = rows[3][0]
         df_concat = pd.concat([df_concat,data_temp[1]],axis=1)
         columns.append(columns_temp)
 
